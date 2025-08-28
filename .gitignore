@@ -1,0 +1,44 @@
+# STM32CubeIDE / Embedded C project
+# Ignore build artifacts and temporary files but keep source and config files like .ioc and .ld
+
+# Build output
+/Debug/
+/Release/
+
+# Object and binary files
+*.o
+*.su
+*.d
+*.elf
+*.bin
+*.hex
+*.list
+*.map
+*.axf
+*.a
+
+# Generated build lists and makefiles
+objects.list
+objects.mk
+sources.mk
+
+# IDE and tool-specific files
+*.launch
+*.project
+*.cproject
+.settings/
+.vscode/
+.idea/
+
+# OS files and editor backups
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.orig
+
+# Logs
+*.log
+
+# Keep CubeMX .ioc and linker scripts (.ld) tracked - do not ignore them explicitly
