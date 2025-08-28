@@ -1,0 +1,4 @@
+../Core/Src/wrapper.cpp:8:16:int32_t vl53l4cx_io_write(uint16_t, uint8_t*, uint16_t)	16	static
+../Core/Src/wrapper.cpp:15:16:int32_t vl53l4cx_io_read(uint16_t, uint8_t*, uint16_t)	16	static
+../Core/Src/wrapper.cpp:76:6:void init()	8	static
+../Core/Src/wrapper.cpp:108:6:void loop()	48	static
